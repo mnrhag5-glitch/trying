@@ -66,4 +66,12 @@ let invitation = `hy bro tomorow is my bdy
  //so today is only this thing i learn and tomorrow  i learn loops ok😁😁
 
 
- 
+ //one time revision--------
+
+ let fruit =`mango grapes bnana apple lichi
+  pineapple gauvav orange cocout 
+   papaya watermannle lemon cherry dragonfruit avacado `
+
+
+   const AllFruit =fruit.split(" ");
+   console.log(AllFruit);
