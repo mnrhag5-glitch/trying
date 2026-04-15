@@ -22,3 +22,18 @@ let invitation = `hy bro tomorow is my bdy
  let Aamantran = invitation.replaceAll('hy','oy dalle')
  .replaceAll('bro','chutiye');
  console.log(Aamantran);
+
+
+
+ //ok now we are learning (split) ----------
+
+
+ let info = "hello my name is gautam thakur"
+
+ const information =info.split(' ');
+
+ console.log(information);
+
+
+
+ 
