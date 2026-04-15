@@ -37,3 +37,31 @@ let invitation = `hy bro tomorow is my bdy
 
 
  
+ //now we are learning (repaet string method)-----------
+
+ let text ="how are you seju ,";
+
+ console.log(text.repeat(2));
+
+
+ //(trim)
+
+
+ let trim ="    hy seju what are you doing today   ";
+
+ const trimation =trim.trim();
+
+ console.log(trimation);
+ 
+
+ ///now we are learning concating-----------------
+
+ let seju ="hey gautam how are you ? ";
+ let gautam ="i am good seju 😁";
+
+ let both =seju.concat(gautam);
+ console.log(both);
+
+
+
+ 
