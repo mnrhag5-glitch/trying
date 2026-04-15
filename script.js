@@ -75,3 +75,25 @@ let invitation = `hy bro tomorow is my bdy
 
    const AllFruit =fruit.split(" ");
    console.log(AllFruit);
+
+
+
+
+   //one more topic---------
+   let repeat ="i am gautam thakur ";
+//    let repeatAgain = repeat.repeat(5)
+//    console.log(repeatAgain);
+
+console.log(repeat.repeat(2))
+
+
+///both are right its your choice------
+
+let uppercase ="helo buddy how are you today , tell me";
+const upperCase=uppercase.toUpperCase();
+console.log(upperCase);
+
+
+let lowercase ="JHGH KGKJ ,GLUHK IOIYDYTD YGUHJ FYGFIYF DFTTDVJ ";
+const lowerCase=lowercase.toLowerCase();
+console.log(lowerCase);
