@@ -63,5 +63,7 @@ let invitation = `hy bro tomorow is my bdy
  console.log(both);
 
 
+ //so today is only this thing i learn and tomorrow  i learn loops ok😁😁
+
 
  
