@@ -97,3 +97,13 @@ console.log(upperCase);
 let lowercase ="JHGH KGKJ ,GLUHK IOIYDYTD YGUHJ FYGFIYF DFTTDVJ ";
 const lowerCase=lowercase.toLowerCase();
 console.log(lowerCase);
+
+
+
+//last thig ois concat ------------------
+
+let words ="a b c d e f ";
+let nextWords = "g h i j k l m";
+ 
+let mixThem=words.concat(nextWords);
+console.log(mixThem);
