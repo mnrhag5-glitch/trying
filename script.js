@@ -157,10 +157,34 @@
 //strings----------------------
 
 
-let name="gautram";
-console.log(name.length)
-console.log(name[3])
+// let name="gautram";
+// console.log(name.length)
+// console.log(name[3])
 
 
-let sentence=`hello this is mobile`;
-console.log(typeof sentence)
+// let sentence=`hello this is mobile`;
+// console.log(typeof sentence)
+
+// let obj={
+//    item:"pen",
+//    price:24,
+// };
+// let output=`the cost of ${obj.item} is ${obj.price} rupees`;
+// console.log(output);
+
+
+
+// let string=`this is a template literal ${1+2+3}`;
+// console.log(string);
+
+
+// console.log("hello \n world")
+// console.log("hello \t world")
+
+
+let word="jghjhkjkjhl"
+let newW=word.toUpperCase();
+console.log(newW)
+
+
+
