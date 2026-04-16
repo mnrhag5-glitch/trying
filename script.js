@@ -197,9 +197,22 @@
 // let result="@"+name+name.length;
 // console.log(result)
 
-let num =12;
-let user =prompt("enter num")
-while(user!=num){
-   user=prompt("jaa! ek moka or diya")
-}{console.log("wow nice guess")}
+// let num =12;
+// let user =prompt("enter num")
+// while(user!=num){
+//    user=prompt("jaa! ek moka or diya")
+// }{console.log("wow nice guess")}
 
+
+// let evenNum =0;
+// for(evenNum=0; evenNum <=100; evenNum++)
+// {if(evenNum%2==0)
+//    console.log(evenNum ,"is a even number")
+// }
+
+
+let num=0;
+while(num<=54){
+   console.log(num)
+   num++;
+}
