@@ -193,8 +193,15 @@
 
 
 
-let name=prompt("enter full name");
-let result="@"+name+name.length;
-console.log(result)
+// let name=prompt("enter full name");
+// let result="@"+name+name.length;
+// console.log(result)
 
+
+let number =34;
+let userguess =prompt("enter the right number")
+ if(userguess==34){
+   alert("very good")
+ }else{
+   alert("try again")}
 
