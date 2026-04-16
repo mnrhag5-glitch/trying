@@ -218,7 +218,13 @@
 // }
 
 
-let name=prompt("enter you name")
-let user="@"+name+name.length;
-console.log(user);
+// let name=prompt("enter you name")
+// let user="@"+name+name.length;
+// console.log(user);
 
+
+let num=45;
+let user=prompt("yanha likh be");
+while(num!=user){
+   user=prompt("dobara koshish kar")}
+{console.log("nice ,ye hui na baat")}
