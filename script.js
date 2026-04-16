@@ -159,3 +159,8 @@
 
 let name="gautram";
 console.log(name.length)
+console.log(name[3])
+
+
+let sentence=`hello this is mobile`;
+console.log(typeof sentence)
