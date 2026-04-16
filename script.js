@@ -211,8 +211,14 @@
 // }
 
 
-let num=0;
-while(num<=54){
-   console.log(num)
-   num++;
-}
+// let num=0;
+// while(num<=54){
+//    console.log(num)
+//    num++;
+// }
+
+
+let name=prompt("enter you name")
+let user="@"+name+name.length;
+console.log(user);
+
