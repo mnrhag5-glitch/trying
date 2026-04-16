@@ -182,9 +182,14 @@
 // console.log("hello \t world")
 
 
-let word="jghjhkjkjhl"
-let newW=word.toUpperCase();
-console.log(newW)
+// let word="jghjhkjkjhl"
+// let newW=word.toUpperCase();
+// console.log(newW)
+
+
+let num="gautamthakur";
+let numm=num.slice( 4,6);
+console.log(numm)
 
 
 
