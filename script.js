@@ -111,9 +111,17 @@
 
 //today i am learning loops--------------------
 //so print all  even number from 0 to 100-----------
-let number =0;
-for(number=0; number<=100; number++){
-   if(number%2===0){
-      console.log(number ,"is even number");
-   }
-}
+// let number =0;
+// for(number=0; number<=100; number++){
+//    if(number%2===0){
+//       console.log(number ,"is even number");
+//    }
+// }
+
+
+//while loop--------------
+let num= 0;
+while(num<=50)
+{if(num%2!==0){
+   console.log(num ,"is odd number");}
+num++;}
