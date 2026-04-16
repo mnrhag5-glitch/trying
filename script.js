@@ -187,9 +187,14 @@
 // console.log(newW)
 
 
-let num="gautamthakur";
-let numm=num.slice( 4,6);
-console.log(numm)
+// let num="gautamthakur";
+// let numm=num.slice( 4,6);
+// console.log(numm)
 
+
+
+let name=prompt("enter full name");
+let result="@"+name+name.length;
+console.log(result)
 
 
