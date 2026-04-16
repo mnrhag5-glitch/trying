@@ -153,3 +153,9 @@
 // while(userguess!=num){
 //    userguess=prompt("again try")
 // }console.log("mubarka");
+
+//strings----------------------
+
+
+let name="gautram";
+console.log(name.length)
