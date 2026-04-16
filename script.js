@@ -120,8 +120,36 @@
 
 
 //while loop--------------
-let num= 0;
-while(num<=50)
-{if(num%2!==0){
-   console.log(num ,"is odd number");}
-num++;}
+// let num= 0;
+// while(num<=50)
+// {if(num%2!==0){
+//    console.log(num ,"is odd number");}
+// num++;}
+
+//lets check now do while ---------
+
+// let num =0;
+// do{
+//    if(num%2==0)
+//    console.log(num,"is even number");num++;
+// }while(num<=40);
+
+
+
+// let num=12
+//  let usernum=prompt("enter the value")
+
+// while(usernum!=num){
+
+//    usernum=prompt("try again")
+// }
+// console.log("mubarka praaa");
+
+
+////one more time
+
+// let num=45;
+// let userguess=prompt("enter a valid number")
+// while(userguess!=num){
+//    userguess=prompt("again try")
+// }console.log("mubarka");
