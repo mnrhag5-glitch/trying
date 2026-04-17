@@ -331,3 +331,28 @@
 
 
 // console.log(company.toString())
+
+
+
+
+
+//function===============
+//block of code that perform a specific task , can be invoked whenever needed================
+
+
+// function myFunction(){
+//    console.log("hello seju")
+// }
+// myFunction()
+
+// function sum(a,b){
+//    console.log(a+b)
+// }
+// sum(45,44)
+
+
+
+function multi(a,b){
+   return a*b}
+let result=multi(45,78)
+   console.log(result)
