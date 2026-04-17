@@ -392,8 +392,22 @@
 
 //map method================
 
-let num=[2,3,4,5,6,7,8];
-newone=num.map((val)=>{
-   return val*2;
-});
-console.log(newone);
+// let num=[2,3,4,5,6,7,8];
+// newone=num.map((val)=>{
+//    return val*2;
+// });
+// console.log(newone);
+
+//filter===============================
+
+// let num=[2,3,45,6,7,8,6,7];
+// let newOne=num.filter((val)=>{
+//    return val%2===0;
+// });
+// console.log(newOne,'is a even number')
+
+let num=[1,2,3,4,5];
+let total=""
+for(let val of num){
+   total+=val;
+}console.log(total)
