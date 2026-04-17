@@ -352,7 +352,26 @@
 
 
 
-function multi(a,b){
-   return a*b}
-let result=multi(45,78)
-   console.log(result)
+// function multi(a,b){
+//    return a*b}
+// let result=multi(45,78)
+//    console.log(result)
+
+
+
+//Arrow function==================
+
+//   const arrowSum=(a,b)=>{
+//    console.log(a+b)
+
+//   }
+//   arrowSum(45,1)
+
+
+//for each-----------------
+
+let arr =[12,12,1,32,44,56];
+arr.forEach((val)=>{
+   console.log(val)
+})
+
