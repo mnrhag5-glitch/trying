@@ -223,8 +223,26 @@
 // console.log(user);
 
 
-let num=45;
-let user=prompt("yanha likh be");
-while(num!=user){
-   user=prompt("dobara koshish kar")}
-{console.log("nice ,ye hui na baat")}
+// let num=45;
+// let user=prompt("yanha likh be");
+// while(num!=user){
+//    user=prompt("dobara koshish kar")}
+// {console.log("nice ,ye hui na baat")}
+
+
+
+//arrays----is a collection of items------------
+
+
+//with for loop-------------
+
+let cities=["delhi","pune","hp","pb","mumbai"];
+
+for(let i=0; i<cities.length; i++);{
+   console.log(cities[i]);
+}
+
+// for(let city of cities){
+//    console.log(city);
+// }
+
