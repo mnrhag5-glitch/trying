@@ -277,6 +277,27 @@
 // number.shift();
 // console.log(number)
 
-let num=[12,13,14,15,16]
-num.unshift(11);
+
+//unshift---------add from first-------
+
+// let num=[12,13,14,15,16]
+// num.unshift(11);
+// console.log(num)
+
+
+//pop===========
+//remove from end
+
+
+ let num=[12,13,14,15,16]
+ num.pop();
 console.log(num)
+
+
+
+//push ===========add from last----
+
+
+ let number=[12,13,14,15,16]
+ number.push(17);
+console.log(number)
