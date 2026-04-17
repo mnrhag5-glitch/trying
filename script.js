@@ -289,15 +289,45 @@
 //remove from end
 
 
- let num=[12,13,14,15,16]
- num.pop();
-console.log(num)
+//  let num=[12,13,14,15,16]
+//  num.pop();
+// console.log(num)
 
 
 
 //push ===========add from last----
 
 
- let number=[12,13,14,15,16]
- number.push(17);
-console.log(number)
+//  let number=[12,13,14,15,16]
+//  number.push(17);
+// console.log(number)
+
+//to string==============
+
+// let item=["apple","mango","banana","lichi"];
+// console.log(item.toString())
+
+
+// let marval=["thor","hulk","iron"];
+// let dc=["superman","batman"];
+// let indian =["krish","jeavn","shaktiman"];
+
+// let allHeroes=marval.concat(dc,indian);
+// console.log(allHeroes.toString());
+
+
+
+
+// let numbers=[12,15,48,48,4,2,];
+
+// console.log(numbers);
+
+
+
+//question===========
+
+// let company=["bloomberg","microsoft","uber","google","ibm","netflix"];
+//  company.push("Amazon")
+
+
+// console.log(company.toString())
