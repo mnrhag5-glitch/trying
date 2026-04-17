@@ -370,8 +370,30 @@
 
 //for each-----------------
 
-let arr =[12,12,1,32,44,56];
-arr.forEach((val)=>{
-   console.log(val)
-})
+// let city =["delhi","pune","mumbai"];
+// city.forEach((val,idx)=>{
+//    console.log(val.toUpperCase(),idx,city)
+// })
 
+// let arr=[1,20,30,45,5,65,745];
+// arr.forEach((val)=>{
+//    console.log(val*val)
+// })
+
+
+// let num=58;
+
+// let user=prompt("guess the number");
+// while(user!=num){
+//    user=prompt("try again");
+// }
+// console.log("nice guess")
+
+
+//map method================
+
+let num=[2,3,4,5,6,7,8];
+newone=num.map((val)=>{
+   return val*2;
+});
+console.log(newone);
