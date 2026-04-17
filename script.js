@@ -236,13 +236,32 @@
 
 //with for loop-------------
 
-let cities=["delhi","pune","hp","pb","mumbai"];
+// let cities=["delhi","pune","hp","pb","mumbai"];
 
-for(let i=0; i<cities.length; i++);{
-   console.log(cities[i]);
-}
+// for(let i=0; i<cities.length; i++){
+//    console.log(cities[i]);
+// }
 
 // for(let city of cities){
 //    console.log(city);
 // }
+ // IT IS EASY TO USE FOR OF LOOP IN ARRAYS==========================
 
+
+// let marks = [85,97,44,37,76,60];
+// let sum=0;
+// for (let val of marks){
+//    sum+=val;
+// }
+// let avg=sum/marks.length;
+//    console.log(`avg of marks is =${avg}`);
+
+
+
+let marks=[85, 97 ,44 ,37 ,76 ,60];
+let sum =0;
+for(let val of marks){
+   sum=sum+val
+}
+let avg = sum/marks.length
+console.log(avg);
