@@ -258,10 +258,25 @@
 
 
 
-let marks=[85, 97 ,44 ,37 ,76 ,60];
-let sum =0;
-for(let val of marks){
-   sum=sum+val
-}
-let avg = sum/marks.length
-console.log(avg);
+// let marks=[85, 97 ,44 ,37 ,76 ,60];
+// let sum =0;
+// for(let val of marks){
+//    sum=sum+val
+// }
+// let avg = sum/marks.length
+// console.log(avg);
+
+
+//shift , unshift ,pop ,push------------
+
+
+//shift -----use for remove from first----
+
+
+// let number=[12,13,14,15,16]
+// number.shift();
+// console.log(number)
+
+let num=[12,13,14,15,16]
+num.unshift(11);
+console.log(num)
