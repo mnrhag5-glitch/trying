@@ -418,10 +418,7 @@
 //    user=prompt("dobara try kro")
 // }console.log("nice guess")
 
-let arr =[1,2,3,4,5,6];
-let sum="";
+let a=2;
+let b=4;
 
-for(let val of arr){
-sum+=sum+val
-
-}console.log(sum)
+console.log(a+b);
