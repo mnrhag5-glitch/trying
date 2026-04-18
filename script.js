@@ -432,7 +432,15 @@
 // let newlist=fruit.indexOf("mango");
 // console.log(newlist);
 
-let number=[1,3,4,2,5,7,4,5,3,7,9,0,5,7,4,]
+// let number=[1,3,4,2,5,7,4,5,3,7,9,0,5,7,4,]
 
-let arr=number.sort();
-console.log(arr);
+// let arr=number.sort();
+// let arrr=number.toReversed();
+// console.log(arr);
+// console.log(arrr);
+
+let fruit=["apple","banana","lichi","grapes"];
+
+for(let fruits of fruit){
+   console.log(fruits)
+}
