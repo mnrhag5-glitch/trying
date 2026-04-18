@@ -80,7 +80,7 @@
 
 
    //one more topic---------
-   let repeat ="i am gautam thakur ";
+   // let repeat ="i am gautam thakur ";
 //    let repeatAgain = repeat.repeat(5)
 //    console.log(repeatAgain);
 
@@ -412,8 +412,16 @@
 //    total+=val;
 // }console.log(total)
 
-let num =23;
-let user=prompt("guess the number")
-while(user!=num){
-   user=prompt("dobara try kro")
-}console.log("nice guess")
+// let num =23;
+// let user=prompt("guess the number")
+// while(user!=num){
+//    user=prompt("dobara try kro")
+// }console.log("nice guess")
+
+let arr =[1,2,3,4,5,6];
+let sum="";
+
+for(let val of arr){
+sum+=sum+val
+
+}console.log(sum)
