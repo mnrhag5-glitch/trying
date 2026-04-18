@@ -446,6 +446,12 @@ let fruit=["apple","banana","lichi","grapes"];
 // }
 
 
-for(let i=0; i<fruit.length;i++){
-   console.log(fruit[i])
-}
+// for(let i=0; i<fruit.length;i++){
+//    console.log(fruit[i])
+// }
+
+
+
+let name="gautam";
+let age=22;
+console.log(name);
