@@ -418,7 +418,9 @@
 //    user=prompt("dobara try kro")
 // }console.log("nice guess")
 
-let a=2;
-let b=4;
+let alpha=["a","b","c","d"]
 
-console.log(a+b);
+let number=[1,2,3,4,5,6];
+
+let mix=alpha.concat(number);
+console.log(mix);
