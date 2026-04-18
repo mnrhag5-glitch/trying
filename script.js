@@ -441,6 +441,11 @@
 
 let fruit=["apple","banana","lichi","grapes"];
 
-for(let fruits of fruit){
-   console.log(fruits)
+// for(let fruits of fruit){
+//    console.log(fruits)
+// }
+
+
+for(let i=0; i<fruit.length;i++){
+   console.log(fruit[i])
 }
