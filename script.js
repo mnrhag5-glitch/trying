@@ -428,6 +428,11 @@
 
 //indexOf============
 
-let fruit=["apple","mango","lichi"]
-let newlist=fruit.indexOf("mango");
-console.log(newlist);
+// let fruit=["apple","mango","lichi"]
+// let newlist=fruit.indexOf("mango");
+// console.log(newlist);
+
+let number=[1,3,4,2,5,7,4,5,3,7,9,0,5,7,4,]
+
+let arr=number.sort();
+console.log(arr);
