@@ -418,9 +418,16 @@
 //    user=prompt("dobara try kro")
 // }console.log("nice guess")
 
-let alpha=["a","b","c","d"]
+// let alpha=["a","b","c","d"]
 
-let number=[1,2,3,4,5,6];
+// let number=[1,2,3,4,5,6];
 
-let mix=alpha.concat(number);
-console.log(mix);
+// let mix=alpha.concat(number);
+// console.log(mix);
+
+
+//indexOf============
+
+let fruit=["apple","mango","lichi"]
+let newlist=fruit.indexOf("mango");
+console.log(newlist);
