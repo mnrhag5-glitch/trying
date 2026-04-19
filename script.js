@@ -480,17 +480,23 @@
 
 
 
-let marks=45;
+// let marks=45;
 
-if (marks>90){
-   console.log('o')
-}else if(marks>80){
-   console.log('a')
+// if (marks>90){
+//    console.log('o')
+// }else if(marks>80){
+//    console.log('a')
 
-}else if(marks>70){
-   console.log('b')
-}else if(marks>50){
-   console.log('c')
-}else if(marks>30){
-   console.log('d')
+// }else if(marks>70){
+//    console.log('b')
+// }else if(marks>50){
+//    console.log('c')
+// }else if(marks>30){
+//    console.log('d')
+// }else{console.log("fail")}
+
+
+let att="75";
+if (att>=75){
+   console.log("pass")
 }else{console.log("fail")}
