@@ -510,7 +510,22 @@
 // }
 
 
-let i=0;
-for (let i=0; i<=10; i+=2){
-   console.log(i)
+// let i=0;
+// for (let i=0; i<=10; i+=2){
+//    console.log(i)
+// }
+
+
+
+// let item =0;
+// do{
+//    console.log(item);
+//    item+=2;
+// }while(item<=10)
+
+
+let i = 0; 
+while (i <= 10) { 
+  console.log(i); 
+  i += 2;         
 }
