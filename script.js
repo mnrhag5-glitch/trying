@@ -536,7 +536,16 @@
 //    num = prompt("Enter number greater than 10");
 // } while (num <= 10);
 
-let num=prompt("enter");
-while(num<=30){
-   num=prompt("try again")
+// let num=prompt("enter");
+// while(num<=30){
+//    num=prompt("try again")
+// }
+
+// let num=prompt("enter");
+// do{num=prompt("nice one")}
+// while(num<=49)
+
+let num=prompt("enter the odd number")
+while(num%2==0){
+   num=prompt("not odd")
 }
