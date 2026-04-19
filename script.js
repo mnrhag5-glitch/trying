@@ -470,10 +470,27 @@
 //filter=======================
 
 
-let name="gautam";
-let age=22;
-let course="full-stack";
+// let name="gautam";
+// let age=22;
+// let course="full-stack";
 
-let output=`hy i am ${name} and i am ${age} years old currently i am doing${course} `
+// let output=`hy i am ${name} and i am ${age} years old currently i am doing${course} `
 
-console.log(output)
+// console.log(output)
+
+
+
+let marks=45;
+
+if (marks>90){
+   console.log('o')
+}else if(marks>80){
+   console.log('a')
+
+}else if(marks>70){
+   console.log('b')
+}else if(marks>50){
+   console.log('c')
+}else if(marks>30){
+   console.log('d')
+}else{console.log("fail")}
