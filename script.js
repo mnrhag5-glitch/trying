@@ -463,6 +463,17 @@
 // const newone=arr.map(squre)
 // console.log(newone)
 
-const arr=[1,2,3,4];
-let newone=arr.map((arr)=>arr*2)
-console.log(newone);
+// const arr=[1,2,3,4];
+// let newone=arr.map((arr)=>arr*2)
+// console.log(newone);
+
+//filter=======================
+
+
+let name="gautam";
+let age=22;
+let course="full-stack";
+
+let output=`hy i am ${name} and i am ${age} years old currently i am doing${course} `
+
+console.log(output)
