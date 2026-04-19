@@ -496,7 +496,21 @@
 // }else{console.log("fail")}
 
 
-let att="75";
-if (att>=75){
-   console.log("pass")
-}else{console.log("fail")}
+// let att="75";
+// if (att>=75){
+//    console.log("pass")
+// }else{console.log("fail")}
+
+
+// let i=0;
+// for(let i=0; i<=10; i++){
+//    if(i%2==0){
+//       console.log(i)
+//    }
+// }
+
+
+let i=0;
+for (let i=0; i<=10; i+=2){
+   console.log(i)
+}
