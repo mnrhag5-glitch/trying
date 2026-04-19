@@ -524,8 +524,19 @@
 // }while(item<=10)
 
 
-let i = 0; 
-while (i <= 10) { 
-  console.log(i); 
-  i += 2;         
+// let i = 0; 
+// while (i <= 10) { 
+//   console.log(i); 
+//   i += 2;         
+// }
+
+// let num;
+
+// do {
+//    num = prompt("Enter number greater than 10");
+// } while (num <= 10);
+
+let num=prompt("enter");
+while(num<=30){
+   num=prompt("try again")
 }
