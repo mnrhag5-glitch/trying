@@ -439,7 +439,7 @@
 // console.log(arr);
 // console.log(arrr);
 
-let fruit=["apple","banana","lichi","grapes"];
+// let fruit=["apple","banana","lichi","grapes"];
 
 // for(let fruits of fruit){
 //    console.log(fruits)
@@ -452,6 +452,14 @@ let fruit=["apple","banana","lichi","grapes"];
 
 
 
-let name="gautam";
-let age=22;
-console.log(name);
+// let name="gautam";
+// let age=22;
+// console.log(name);
+
+const arr=[1,2,3,4];
+
+function squre(x){
+   return x*x
+}
+const newone=arr.map(squre)
+console.log(newone)
