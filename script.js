@@ -545,7 +545,29 @@
 // do{num=prompt("nice one")}
 // while(num<=49)
 
-let num=prompt("enter the odd number")
-while(num%2==0){
-   num=prompt("not odd")
+// let num=prompt("enter the odd number")
+// while(num%2==0){
+//    num=prompt("not odd")
+// }
+let i = 1;
+
+while (i <= 5) {
+  console.log(i);
+  i++;
 }
+
+let arr = [10, 20, 30];
+let sum = 0;
+
+for (let val of arr) {
+  sum += val;
+}
+
+console.log(sum);
+
+
+let pass;
+
+do {
+  pass = prompt("Enter password");
+} while (pass !== "1234");
