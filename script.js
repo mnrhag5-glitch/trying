@@ -456,10 +456,13 @@
 // let age=22;
 // console.log(name);
 
-const arr=[1,2,3,4];
 
-function squre(x){
-   return x*x
-}
-const newone=arr.map(squre)
-console.log(newone)
+// function squre(x){
+//    return x*x
+// }
+// const newone=arr.map(squre)
+// console.log(newone)
+
+const arr=[1,2,3,4];
+let newone=arr.map((arr)=>arr*2)
+console.log(newone);
