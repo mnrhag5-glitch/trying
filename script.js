@@ -575,10 +575,28 @@
 
 
 
-let num;
-let user=prompt("enter here only even number")
-while(
-  user%3 !==0){user=prompt("lvden bhujyam")}
-{
-  console.log("good")
-}
+// let num;
+// let user=prompt("enter here only even number")
+// while(
+//   user%3 !==0){user=prompt("lvden bhujyam")}
+// {
+//   console.log("good")
+// }
+
+
+//  let num="23";
+//  let user=prompt("guess the nuimber");
+//  while(num!==user){
+// user=prompt("try again")
+// }console.log("good")
+
+// let num=45;
+// let user=prompt("yanha likh be");
+// while(num!=user){
+//    user=prompt("dobara koshish kar")}
+// {console.log("nice ,ye hui na baat")}
+
+let num=0;
+while(num<=20){
+  console.log(num)
+}num+=2;
