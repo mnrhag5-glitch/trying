@@ -624,7 +624,17 @@
 // }
 // hello();
 
-function greet (name){
-   console.log("hello "+name)
-}
-greet("58+58")
+// function greet (name){
+//    console.log("hello "+name)
+// }
+// greet("fddfc")
+
+function add(a,b,c){
+   return a+b+c;
+}let result=add(5,4,2,5);
+console.log(result);
+
+// function multi(a,b,c,d){
+//    return a*b+c-d
+// }let newresult=multi(5,6,9,8)
+// console.log(newresult);
