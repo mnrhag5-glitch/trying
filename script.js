@@ -596,7 +596,23 @@
 //    user=prompt("dobara koshish kar")}
 // {console.log("nice ,ye hui na baat")}
 
-let num=0;
-while(num<=20){
-  console.log(num)
-}num+=2;
+//  let num=0;
+//  while(num<=20){
+//    console.log(num)
+//  num+=2;}
+
+// let num=25;
+// let user=number(prompt("enter here"));
+// while(num!==user){
+//    user=number(prompt("try again"))
+// }console.log("very good")
+
+
+let num = 25;
+let user = Number(prompt("Enter number"));
+
+while (user !== num) {
+  user = Number(prompt("Try again"));
+}
+
+console.log("Very good");
