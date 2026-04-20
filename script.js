@@ -602,17 +602,29 @@
 //  num+=2;}
 
 // let num=25;
-// let user=number(prompt("enter here"));
+// let user=Number(prompt("enter here"));
 // while(num!==user){
-//    user=number(prompt("try again"))
+//    user=Number(prompt("try again"))
 // }console.log("very good")
 
 
-let num = 25;
-let user = Number(prompt("Enter number"));
+// let num = 25;
+// let user = Number(prompt("Enter number"));
 
-while (user !== num) {
-  user = Number(prompt("Try again"));
+// while (user !== num) {
+//   user = Number(prompt("Try again"));
+// }
+
+// console.log("Very good");
+
+
+
+// function hello(){
+//    console.log("hy world how's the day")
+// }
+// hello();
+
+function greet (name){
+   console.log("hello "+name)
 }
-
-console.log("Very good");
+greet("58+58")
