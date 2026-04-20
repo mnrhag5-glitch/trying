@@ -549,25 +549,36 @@
 // while(num%2==0){
 //    num=prompt("not odd")
 // }
-let i = 1;
+// let i = 1;
 
-while (i <= 5) {
-  console.log(i);
-  i++;
+// while (i <= 5) {
+//   console.log(i);
+//   i++;
+// }
+
+// let arr = [10, 20, 30];
+// let sum = 0;
+
+// for (let val of arr) {
+//   sum += val;
+// }
+
+// console.log(sum);
+
+
+// let pass;
+
+// do {
+//   pass = prompt("Enter password");
+// } while (pass !== "1234");
+
+
+
+
+let num;
+let user=prompt("enter here only even number")
+while(
+  user+=3(user=prompt("very nice munna"))
+){
+  console.log("lvden bhujyam")
 }
-
-let arr = [10, 20, 30];
-let sum = 0;
-
-for (let val of arr) {
-  sum += val;
-}
-
-console.log(sum);
-
-
-let pass;
-
-do {
-  pass = prompt("Enter password");
-} while (pass !== "1234");
