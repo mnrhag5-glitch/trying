@@ -578,7 +578,7 @@
 let num;
 let user=prompt("enter here only even number")
 while(
-  user+=3(user=prompt("very nice munna"))
-){
-  console.log("lvden bhujyam")
+  user%3 !==0){user=prompt("lvden bhujyam")}
+{
+  console.log("good")
 }
