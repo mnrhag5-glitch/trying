@@ -629,12 +629,31 @@
 // }
 // greet("fddfc")
 
-function add(a,b,c){
-   return a+b+c;
-}let result=add(5,4,2,5);
-console.log(result);
+// function add(a,b,c){
+//    return a+b+c;
+// }let result=add(5,4,2,5);
+// console.log(result);
 
 // function multi(a,b,c,d){
 //    return a*b+c-d
 // }let newresult=multi(5,6,9,8)
 // console.log(newresult);
+
+// let sum=(a,b)=>
+// a+b;
+// console.log(sum(15,15))
+
+// let mul=(()=>{
+
+// })
+
+
+
+
+
+
+
+function hello(){
+console.log("hello gautam")
+}
+hello()
