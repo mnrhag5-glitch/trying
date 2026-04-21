@@ -805,32 +805,52 @@
 
 
 //-----------------------------------------------------
-function greet(){
-   console.log("Welcome to FSD")
-}
-greet();
+// function greet(){
+//    console.log("Welcome to FSD")
+// }
+// greet();
 
 
 //--------------------------------------------------------
 
-function some(a,b){
-   return a*b
-}
-console.log(some(12,12))
+// function some(a,b){
+//    return a*b
+// }
+// console.log(some(12,12))
 
 
 //----------------------------------------------------
 
 
-function sum(a=4,b=5,){
-   return(a+b)
-}
-console.log(sum(10,10))
+// function sum(a=4,b=5,){
+//    return(a+b)
+// }
+// console.log(sum(10,10))
 
 
 //------------------------------------------------------
 
-let sentence="     hello my name is gautam    ";
-console.log(sentence.length);
-console.log(sentence.trim())
-console.log(sentence.toUpperCase().trim())
+// let sentence="     hello my name is gautam    ";
+// console.log(sentence.length);
+// console.log(sentence.trim())
+// console.log(sentence.toUpperCase().trim())
+
+
+//-----------------------------------------------
+
+
+// console.log(Math.ceil(5.1))
+// console.log(Math.sqrt(64))
+// console.log(Math.round(64))
+
+
+//------------------------------------------------------
+
+// console.log(Math.floor(Math.random()*100000)+200000);
+
+// console.log(Math.floor(Math.random)*900000+100000)
+
+// console.log(Math.floor(Math.random()*900000)+100000)
+
+
+// console.log(Math.floor(Math.random()*900000)+100000)
