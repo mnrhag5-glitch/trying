@@ -664,7 +664,26 @@
 // console.log(hello(23,34))
 
 
-function hy(a,b){
-console.log(a+b)
-}
-hy(12,12)
+// function hy(a,b){
+// console.log(a+b)
+// }
+// hy(12,12)
+
+// function multiply(a,b){
+// return a*b
+// }
+// let result=multiply(12,12)
+// console.log(result)
+
+
+let mult=(a,b)=>a*b;
+let result=mult(12,12);
+console.log(result)
+
+let add=(a,b)=>a+b;
+console.log(add(12,11))
+
+let sub=((a,b)=>{return a-b;
+
+})
+console.log(sub(100,20))
