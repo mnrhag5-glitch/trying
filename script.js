@@ -653,7 +653,18 @@
 
 
 
-function hello(){
-console.log("hello gautam")
+// function hello(){
+// console.log("hello gautam")
+// }
+// hello()
+
+// function hello(a,b){
+//    return a+b;
+// }
+// console.log(hello(23,34))
+
+
+function hy(a,b){
+console.log(a+b)
 }
-hello()
+hy(12,12)
