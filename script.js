@@ -703,9 +703,24 @@
 // console.log("very good")
 
 
-const checkEvenorOdd=(num)=>{
-   if(num%2===0){
-      return "even"
-   }else{return "odd"}
-}
-console.log(checkEvenorOdd(12))
+// const checkEvenorOdd=(num)=>{
+//    if(num%2===0){
+//       return "even"
+//    }else{return "odd"}
+// }
+// console.log(checkEvenorOdd(12))
+
+// console.log("jlti aoo khana teyaar hai")
+// setTimeout((husband)=>{
+
+// console.log("ruko 5 sec me aya")},2000)
+// setTimeout(()=>{
+//    console.log("aa gya jldi khana do bhukh lgi hai")
+// },7000)
+
+
+
+// let arr=[1,2,3,4,5];
+// arr.forEach((num)=>{
+//    console.log(num*3)
+// })
