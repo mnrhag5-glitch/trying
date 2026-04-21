@@ -676,14 +676,36 @@
 // console.log(result)
 
 
-let mult=(a,b)=>a*b;
-let result=mult(12,12);
-console.log(result)
+// let mult=(a,b)=>a*b;
+// let result=mult(12,12);
+// console.log(result)
 
-let add=(a,b)=>a+b;
-console.log(add(12,11))
+// let add=(a,b)=>a+b;
+// console.log(add(12,11))
 
-let sub=((a,b)=>{return a-b;
+// let sub=((a,b)=>{return a-b;
 
-})
-console.log(sub(100,20))
+// })
+// console.log(sub(100,20))
+
+// let subb=((a,b)=>{
+//    return a-b
+// })
+// let resultt=subb(12,2);
+// console.log(resultt);
+
+
+// let num="";
+// let user=prompt("enter value unser 20 to 30")
+// while(user>=30 || user<=20){
+//    user=prompt("galat ! dobara guess kro")
+// }
+// console.log("very good")
+
+
+const checkEvenorOdd=(num)=>{
+   if(num%2===0){
+      return "even"
+   }else{return "odd"}
+}
+console.log(checkEvenorOdd(12))
