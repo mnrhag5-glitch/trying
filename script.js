@@ -1,5 +1,7 @@
 // today i learn about string method-------------
 
+// const { useCallback } = require("react");
+
 // let name="gautam thakur"
 // console.log(name.length);
 
@@ -694,6 +696,7 @@
 // let resultt=subb(12,2);
 // console.log(resultt);
 
+///////////////////////////////////////this one//////////////////////////////////////////
 
 // let num="";
 // let user=prompt("enter value unser 20 to 30")
@@ -710,6 +713,9 @@
 // }
 // console.log(checkEvenorOdd(12))
 
+
+///////////////////////////////////////TRY THIS ONE/////////////////////////////////////////////////////
+
 // console.log("jlti aoo khana teyaar hai")
 // setTimeout((husband)=>{
 
@@ -724,3 +730,107 @@
 // arr.forEach((num)=>{
 //    console.log(num*3)
 // })
+
+// function greet(callback){
+//    console.log("hello gautam");
+//    callback();
+// }
+// function one(){
+//    console.log("welcome")
+// }
+// greet(one);
+
+
+
+
+
+// function add(a,b){
+//    console.log(a+b)
+// };
+// function multiply(a,b){
+//    console.log(a*b)
+// }
+
+// console.log(add(12,12));
+// console.log(multiply(12,12));
+
+// function add(a,b){
+//    return a+b
+// }
+// function multi(a,b){
+//    return a*b
+// }
+
+// console.log(add(12,12))
+// console.log(multi(12,12))
+
+
+// let add =(a,b)=>a+b;
+// let multi=(a,b)=>a*b;
+// console.log(add(10,10))
+// console.log(multi(10,10))
+
+
+// let even=(num)=>{
+//    if(num%2===0)
+//      {return "even"}
+// else{return "odd"}}
+// console.log(even("11"));
+
+
+
+// const checkEvenorOdd=(num)=>{
+//    if(num%2===0){
+//       return "even"
+//    }else{return "odd"}
+// }
+// console.log(checkEvenorOdd(12))
+
+
+// let even =(num)=>num%2===0 ? "even":"odd";
+// console.log(even(12));
+
+// let arr = [1,2,3];
+// arr.forEach(num => {
+//    console.log(num)
+// });
+
+
+// let arr=[10,20,30,15,48,55,33,486];
+// arr.forEach((num)=>{
+// if(num%2===0){
+//    console.log(num)
+// }
+// })
+
+
+//-----------------------------------------------------
+function greet(){
+   console.log("Welcome to FSD")
+}
+greet();
+
+
+//--------------------------------------------------------
+
+function some(a,b){
+   return a*b
+}
+console.log(some(12,12))
+
+
+//----------------------------------------------------
+
+
+function sum(a=4,b=5,){
+   return(a+b)
+}
+console.log(sum(10,10))
+
+
+//------------------------------------------------------
+
+let sentence="     hello my name is gautam    ";
+console.log(sentence.length);
+console.log(sentence.trim())
+console.log(sentence.toUpperCase().trim())
