@@ -967,8 +967,24 @@
 // };
 
 
-console.log("may i come in sir ?");
-console.log("wait 3-5 sec")
-setTimeout(()=>{
-  console.log("now can i come in sir")
-},3500)
+// console.log("may i come in sir ?");
+// console.log("wait 3-5 sec")
+// setTimeout(()=>{
+//   console.log("now can i come in sir")
+// },3500)
+
+
+// let num=15;
+// console.log(num%2 === 0 ? "even" : "odd");
+
+
+// let i=0;
+// for(let i=0; i<=20; i+=2){
+//    console.log(i)
+// }
+
+let i=0;
+while(i<=20){
+   console.log(i)
+   i+=2
+}
