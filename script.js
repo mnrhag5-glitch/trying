@@ -1058,10 +1058,17 @@
 // let result=num.forEach((val)=>val+=10)
 // console.log(result)
 
-let num = [1,2,3,4,5];
+// let num = [1,2,3,4,5];
 
-num.forEach((val, i) => {
-  num[i] = val + 10;
-});
+// num.forEach((val, i) => {
+//   num[i] = val + 10;
+// });
 
-console.log(num);
+// console.log(num);
+
+
+// let num=[1,2,3,4]
+// num.forEach((val,index)=>{
+//    num[index]=val+10
+// })
+// console.log(num)
