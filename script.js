@@ -854,3 +854,35 @@
 
 
 // console.log(Math.floor(Math.random()*900000)+100000)
+
+
+// console.log(Math.floor(Math.random()*900000)+100000);
+
+// console.log("jaldi aao khane khana")
+// console.log("ruko 5 sec me aya")
+// setTimeout(()=>{
+//    console.log("lo aa gya ab khana do")
+// },5000);
+
+// console.log("jlti aoo khana teyaar hai")
+// setTimeout((husband)=>{
+
+// console.log("ruko 5 sec me aya")},2000)
+// setTimeout(()=>{
+//    console.log("aa gya jldi khana do bhukh lgi hai")
+// },7000)
+
+
+let num="";
+let user=prompt("enter the number")
+while(user>30 || user<20){
+ user=prompt("wrong")
+} 
+  console.log("correct")
+
+//   let num="";
+// let user=prompt("enter value unser 20 to 30")
+// while(user>=30 || user<=20){
+//    user=prompt("galat ! dobara guess kro")
+// }
+// console.log("very good")
