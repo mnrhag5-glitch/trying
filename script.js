@@ -1001,7 +1001,39 @@
 // let sum=(a,b)=>a+b;
 // console.log(sum(12,12))
 
-function multi(a,b){
-   return a*b
-}
-console.log(multi(12,12))
+// function multi(a,b){
+//    return a*b
+// }
+// console.log(multi(12,12))
+
+// let num=[1,2,3,4,5];
+// let sum=0
+// for(let val of num)   sum+=val;
+// console.log(sum,"this is the sum of num");
+
+// num.forEach((val)=>{sum+=val
+// })
+// console.log(sum)
+
+// console.log([1,2,3,4,25].reduce((a,b) => a+b, 0));
+// 
+// let num=[1,2,3,4,5];
+// let result=num.reduce((a,b)=>{ return a+b
+// })
+// console.log(result)
+
+// let num=[1,2,3,4,5];
+// let result=num.reduce((a,b)=>a+b);
+// console.log(result)
+
+// let num = [1,2,3,4,5];
+
+// let result = num.reduce((a, b) => a + b);
+
+// console.log(result);
+
+
+let num=[1,2,3,4,15];
+let sum=0;
+for(let val of num)sum+=val;
+console.log(sum)
