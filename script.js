@@ -891,19 +891,69 @@
 //////////////////////////OBJECT/////////////////////////////////////
 
 
-let student ={
-   name:["gautam","seju","dheeraj","mohini"],
-   age:22,
-   class:12,
-   passORfail:true,
+// let student ={
+//    name:["gautam","seju","dheeraj","mohini"],
+//    age:22,
+//    class:12,
+//    passORfail:true,
 
-   good: function(){
-      console.log("all students are performing very well")
-   },
-   bad:function(){
-      console.log("some student are too lazy")
-   }}
-   console.log(student.name)
-   console.log(student.age)
-   student.good();
-   student.bad();
+//    good(){
+//       console.log("all students are performing very well")
+//    },
+//    bad(){
+//       console.log("some student are too lazy")
+//    }}
+//    console.log(student.name)
+//    console.log(student.age)
+//    student.good();
+//    student.bad();
+
+
+
+// let num=0;
+// for(let num=0; num<=10; num+=2)
+// // console.log(num)
+
+
+// let num=0;
+// while(num<=20){
+// console.log(num)
+// num+=2
+// }
+
+
+// let student ={
+//    name:["gautam","seju","dheeraj","mohini"],
+//    age:22,
+//    class:12,
+//    passORfail:true,
+
+
+//    good(){
+//       console.log("all students are performing very well")
+//    },
+//    bad(){
+//       console.log("some student are too lazy")
+//    }}
+   // console.log(student.name)
+   // console.log(student.age)
+   // console.log(student.hobbies)
+   // student.good();
+   // student.bad();
+
+   // student.hobbies=["games","trecking"]
+   // console.log(student)
+
+   // student.topper=["gautam","seju"]
+
+
+   // const isEvan=
+   // console.log(isEvan(13))
+
+//    let num = 10;
+// let result = (num % 2 === 0) ? "even" : "odd";
+// console.log(result);
+
+
+let num = 12;
+console.log(num%2===0 ? "even" : "odd");
