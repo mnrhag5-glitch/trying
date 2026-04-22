@@ -955,5 +955,20 @@
 // console.log(result);
 
 
-let num = 12;
-console.log(num%2===0 ? "even" : "odd");
+// let num = 12;
+// console.log(num%2===0 ? "even" : "odd");
+
+// console.log(this)
+
+// let num=2;
+// while(num<=20){
+//    console.log(num)
+//    num+=2
+// };
+
+
+console.log("may i come in sir ?");
+console.log("wait 3-5 sec")
+setTimeout(()=>{
+  console.log("now can i come in sir")
+},3500)
