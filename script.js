@@ -873,12 +873,12 @@
 // },7000)
 
 
-let num="";
-let user=prompt("enter the number")
-while(user>30 || user<20){
- user=prompt("wrong")
-} 
-  console.log("correct")
+// let num="";
+// let user=prompt("enter the number")
+// while(user>30 || user<20){
+//  user=prompt("wrong")
+// } 
+//   console.log("correct")
 
 //   let num="";
 // let user=prompt("enter value unser 20 to 30")
@@ -886,3 +886,24 @@ while(user>30 || user<20){
 //    user=prompt("galat ! dobara guess kro")
 // }
 // console.log("very good")
+
+
+//////////////////////////OBJECT/////////////////////////////////////
+
+
+let student ={
+   name:["gautam","seju","dheeraj","mohini"],
+   age:22,
+   class:12,
+   passORfail:true,
+
+   good: function(){
+      console.log("all students are performing very well")
+   },
+   bad:function(){
+      console.log("some student are too lazy")
+   }}
+   console.log(student.name)
+   console.log(student.age)
+   student.good();
+   student.bad();
