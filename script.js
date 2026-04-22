@@ -983,8 +983,25 @@
 //    console.log(i)
 // }
 
-let i=0;
-while(i<=20){
-   console.log(i)
-   i+=2
+// let i=0;
+// while(i<=20){
+//    console.log(i)
+//    i+=2
+// }
+
+// let num=25;
+// let user=prompt("guess the number")
+// // console.log(user==num? "correct ans":"try again")
+
+// while(user!=num){
+//    user=prompt("try agsin")
+// }
+// console.log("nice")
+
+// let sum=(a,b)=>a+b;
+// console.log(sum(12,12))
+
+function multi(a,b){
+   return a*b
 }
+console.log(multi(12,12))
