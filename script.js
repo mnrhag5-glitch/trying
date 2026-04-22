@@ -1033,7 +1033,35 @@
 // console.log(result);
 
 
-let num=[1,2,3,4,15];
-let sum=0;
-for(let val of num)sum+=val;
-console.log(sum)
+// let num=[1,2,3,4,15];
+// let sum=0;
+// for(let val of num)sum+=val;
+// console.log(sum)
+
+///////////////////for each||||filter||||map|||||reduse/////////////////////////
+
+
+// let num=[1,2,3,4,5];
+// let result=num.filter((val)=>val>3
+// )
+// console.log(result)
+
+
+// let num=[11,22,33,44,55];
+// let result=num.map((add)=>{return add+10
+// });
+// console.log(result)
+
+
+// let num=[1,2,3,4,5];
+// let add=0;
+// let result=num.forEach((val)=>val+=10)
+// console.log(result)
+
+let num = [1,2,3,4,5];
+
+num.forEach((val, i) => {
+  num[i] = val + 10;
+});
+
+console.log(num);
