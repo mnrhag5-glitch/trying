@@ -1072,3 +1072,17 @@
 //    num[index]=val+10
 // })
 // console.log(num)
+
+// const num=[1,2,3,4,5];
+// let sum=num.reduce((a,b)=>{
+// return a+b
+// },0)
+// console.log(sum)
+
+
+let user =prompt("guess the number");
+while(user<=20 ||user>=30){
+   user=prompt("try again")
+}
+   console.log("very good")
+
