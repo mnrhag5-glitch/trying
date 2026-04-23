@@ -1080,9 +1080,37 @@
 // console.log(sum)
 
 
-let user =prompt("guess the number");
-while(user<=20 ||user>=30){
-   user=prompt("try again")
-}
-   console.log("very good")
+// let user =prompt("guess the number");
+// while(user<=20 ||user>=30){
+//    user=prompt("try again")
+// }
+//    console.log("very good")
 
+
+// let num=[1,2,3,4,5,6,7,8,9,10];
+// let sum=0;
+// for(let val of num){
+//  sum = sum+val;
+// }
+// console.log(sum)
+
+
+// let shopingCart=[{
+//    phone : "iphone 17",
+//    price : 100000
+// },{
+//    laptop : "acer lite",
+//    price : 52000
+// },{
+//    chair : "tire chair",
+//    price :5000
+// },{
+//    table : "wood table",
+//    price : 8000
+// },{cource:"full-stack",
+//    price :35000
+// }];
+
+// let totalOfItems=shopingCart.reduce((a,b)=>{return a+b.price
+// },0)
+// console.log('your total is = rs',totalOfItems)
