@@ -1114,3 +1114,15 @@
 // let totalOfItems=shopingCart.reduce((a,b)=>{return a+b.price
 // },0)
 // console.log('your total is = rs',totalOfItems)
+
+
+
+//////////////////////DOM /////////////////////////////////////////////////////
+
+
+// function changeBC(){
+//    document.querySelector("body").style.backgroundColor="grEEN";
+// }
+
+let age=18;
+console.log(age>=18 ? "adult":"not adult");
