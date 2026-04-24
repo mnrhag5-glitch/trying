@@ -1149,3 +1149,49 @@
 // console.log(parent.firstElementChild)
 
 
+//=================================create elemetn======================================
+
+const div =document.createElement('div')  //DIV BNANE KE LIYE -------------
+console.log(div)
+div.className="main"
+div.id='hello'
+div.setAttribute('title','hello i am learning dom') //Atributes bnane ke liye--------
+div.style.backgroundColor='green'
+div.style.padding='12px'
+const addText = document.createTextNode("Hello World today is bad day")
+//ye line se text add hoga (createtextnode se)or ise addtext var me dala-----------------
+
+div.appendChild(addText)
+//select kiya ki div child ko parent me daal do---------------
+document.body.appendChild(div)
+//documenet ki body me ab child ko add kr diya---------------
+
+
+//------------------function ki help se bhi kr skte ho--------------------
+
+function addLanguage(langName){
+const li = document.createElement('li');
+li.innerHTML=`${langName}`
+document.querySelector('.language').appendChild(li)
+}
+addLanguage("Python")
+addLanguage("Java")
+addLanguage("Typescript")
+
+
+//---------------------second way of function------------------------------
+function addoptiLanguage(langName){
+   const li=document.createElement('li');
+ li.appendChild(document.createTextNode)(langName)
+ document.querySelector('.language').appendChild(li)
+}
+addoptiLanguage('golgang')
+//---------------------isi ko pehle wale function jesa krne ka tarika------------------------
+
+// function addoptiLanguage(langName){
+//    const li=document.createElement('li');
+//     const addtext=document.createTextNode(langName)
+//    li.appendChild(addText)}
+
+
+//--------------par ham filhaal upr wale ke saath jayege---------------
