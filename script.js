@@ -1124,5 +1124,13 @@
 //    document.querySelector("body").style.backgroundColor="grEEN";
 // }
 
-let age=18;
-console.log(age>=18 ? "adult":"not adult");
+// let age=18;
+// console.log(age>=18 ? "adult":"not adult");
+
+
+
+let num='55';
+let user=prompt("guess the number")
+while(user!==num){
+   user=prompt("try again")
+}console.log("nice guess");
