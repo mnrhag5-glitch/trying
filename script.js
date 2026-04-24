@@ -1129,8 +1129,23 @@
 
 
 
-let num='55';
-let user=prompt("guess the number")
-while(user!==num){
-   user=prompt("try again")
-}console.log("nice guess");
+// let num='55';
+// let user=prompt("guess the number")
+// while(user!==num){
+//    user=prompt("try again")
+// }console.log("nice guess");
+
+
+//=================learning DOM MENIPULATION=============================//
+
+// const parent=document.querySelector('.parent')
+// console.log(parent);
+// console.log(parent.children);
+
+// for(let i=0; i<parent.children.length; i++){
+//    console.log(parent.children[i].innerHTML)
+// }
+// parent.children[2].style.color='orange'
+// console.log(parent.firstElementChild)
+
+
