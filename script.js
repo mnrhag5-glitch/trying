@@ -1256,12 +1256,34 @@ let h3 = document.querySelector('h3');
 h3.style.color="black"
 let students=document.querySelectorAll('.students');
 
-let colors = ["red", "blue", "green", "orange", "purple"];
+// let colors = ["red", "blue", "green", "orange", "purple"];
 
 // students.forEach((el, i) => {
 //   el.style.color = colors[i];
 // });
 
-students.forEach(el => {
-  el.style.color = "orange";
+//ek hi baar me sabhi text pr color krna hai diff-c to upr wala code------------------------------
+//sbhi me ek hi color to niche wala------------
+// students.forEach(el => {
+//   el.style.color = "orange";
+// });
+
+//or agar manualy krna sbhi me ek ek to niche wala--------
+
+// students[0].style.color="white"
+// students[1].style.color="orange"
+// students[2].style.color="yellow"
+// students[3].style.color="black"
+// students[4].style.color="pink"
+// students[5].style.color="blue"
+// students[6].style.color="red"
+
+// students.forEach((rang)=>{
+// rang.style.color="yellow"
+// })
+
+let color=['red','white','black','orange','yellow','blue','white'];
+
+students.forEach((rang,cooloor)=>{
+rang.style.color=color[cooloor]
 });
