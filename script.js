@@ -1197,14 +1197,52 @@
 //---------------------par ham filhaal upr wale ke saath jayege---------------
 
 
-console.log(a);
-var a=10;
-let b=20;
-console.log(b)
-function hello(){
-   console.log(c)
-   var c =30;
-   console.log(c);
-}
-hello();
-console.log(a);
+// console.log(a);
+// var a=10;
+// let b=20;
+// console.log(b)
+// function hello(){
+//    console.log(c)
+//    var c =30;
+//    console.log(c);
+// }
+// hello();
+// console.log(a);
+
+//-----------------------------today i learn less then anyday today i just watch tutorial and theory not done any prectice-------------------
+
+
+//today is a prectice day--------------------------------
+
+
+// let h1 = document.createElement("h1");
+// h1.textContent = "Welcome";
+
+// document.body.append(h1);
+
+// let div =document.createElement('div');
+// div.class="container"
+// let h3=document.createElement('h3');
+// let p=document.createElement('p');
+// h3.textContent="Hello world this is  little Introduction";
+// p.textContent="hy my name is gautam thakur and am from himachal pradesh"
+// h3.style.color="blue";
+// p.style.color="orange";
+// h3,p.style.borderStyle="solid";
+// h3,p.style.borderRadius='10px';
+// document.body.append(div);
+
+
+let div1=document.createElement('div');
+let div2=document.createElement('div');
+let h1=document.createElement('h3')
+let p1=document.createElement('p')
+let h2=document.createElement('h3')
+let p2=document.createElement('p')
+h1.textContent="frontend"
+p1.textContent="it's handle ui of webpage"
+h2.textContent="backend"
+p2.textContent=" it's handle backend of webpage"
+div1.append(h1,p1);
+div2.append(h2,p2);
+document.body.append(div1,div2)
