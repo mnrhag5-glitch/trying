@@ -1138,8 +1138,8 @@
 
 //=================learning DOM MENIPULATION=============================//
 
-const parent=document.querySelector('.parent')
-parent.children[2].style.color='orange'
+// const parent=document.querySelector('.parent')
+// parent.children[2].style.color='orange'
 
 
 
@@ -1252,9 +1252,9 @@ parent.children[2].style.color='orange'
 // parent.children[2].style.color='orange'
 // console.log(parent.firstElementChild)
 
-let h3 = document.querySelector('h3');
-h3.style.color="black"
-let students=document.querySelectorAll('.students');
+// let h3 = document.querySelector('h3');
+// h3.style.color="black"
+// let students=document.querySelectorAll('.students');
 
 // let colors = ["red", "blue", "green", "orange", "purple"];
 
@@ -1282,8 +1282,20 @@ let students=document.querySelectorAll('.students');
 // rang.style.color="yellow"
 // })
 
-let color=['red','white','black','orange','yellow','blue','white'];
+// let color=['red','white','black','orange','yellow','blue','white'];
 
-students.forEach((rang,cooloor)=>{
-rang.style.color=color[cooloor]
-});
+// students.forEach((rang,cooloor)=>{
+// rang.style.color=color[cooloor]
+// });
+
+// let num=['one','two','three','four']
+// num.forEach((value,index,arr)=>{
+//    console.log(value)
+// })
+
+//aj pdhne me mja aya  kyuki thode bhut cons=cept clear hue pr abhi kaam se jana hoga bye-----------------------
+
+//variable se bhi text add kiye ja skte hai--------------
+
+const addtext=document.createTextNode("hello this is in addtext variable");
+document.body.append(addtext);
