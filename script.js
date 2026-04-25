@@ -1138,15 +1138,9 @@
 
 //=================learning DOM MENIPULATION=============================//
 
-// const parent=document.querySelector('.parent')
-// console.log(parent);
-// console.log(parent.children);
+const parent=document.querySelector('.parent')
+parent.children[2].style.color='orange'
 
-// for(let i=0; i<parent.children.length; i++){
-//    console.log(parent.children[i].innerHTML)
-// }
-// parent.children[2].style.color='orange'
-// console.log(parent.firstElementChild)
 
 
 //=================================create elemetn======================================
@@ -1233,16 +1227,41 @@
 // document.body.append(div);
 
 
-let div1=document.createElement('div');
-let div2=document.createElement('div');
-let h1=document.createElement('h3')
-let p1=document.createElement('p')
-let h2=document.createElement('h3')
-let p2=document.createElement('p')
-h1.textContent="frontend"
-p1.textContent="it's handle ui of webpage"
-h2.textContent="backend"
-p2.textContent=" it's handle backend of webpage"
-div1.append(h1,p1);
-div2.append(h2,p2);
-document.body.append(div1,div2)
+// let div1=document.createElement('div');
+// let div2=document.createElement('div');
+// let h1=document.createElement('h3')
+// let p1=document.createElement('p')
+// let h2=document.createElement('h3')
+// let p2=document.createElement('p')
+// h1.textContent="frontend"
+// p1.textContent="it's handle ui of webpage"
+// h2.textContent="backend"
+// p2.textContent=" it's handle backend of webpage"
+// div1.append(h1,p1);
+// div2.append(h2,p2);
+// document.body.append(div1,div2)
+
+
+// const parent=document.querySelector('.parent')
+// console.log(parent);
+// console.log(parent.children);
+
+// for(let i=0; i<parent.children.length; i++){
+//    console.log(parent.children[i].innerHTML)
+// }
+// parent.children[2].style.color='orange'
+// console.log(parent.firstElementChild)
+
+let h3 = document.querySelector('h3');
+h3.style.color="black"
+let students=document.querySelectorAll('.students');
+
+let colors = ["red", "blue", "green", "orange", "purple"];
+
+// students.forEach((el, i) => {
+//   el.style.color = colors[i];
+// });
+
+students.forEach(el => {
+  el.style.color = "orange";
+});
