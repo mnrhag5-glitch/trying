@@ -1297,5 +1297,27 @@
 
 //variable se bhi text add kiye ja skte hai--------------
 
-const addtext=document.createTextNode("hello this is in addtext variable");
-document.body.append(addtext);
+// const addtext=document.createTextNode("hello this is in addtext variable");
+// document.body.append(addtext);
+
+
+//--------------wow----------------//
+
+
+// function addLanguage(langName){
+// const li = document.createElement('li');
+// li.innerHTML=`${langName}`
+// document.querySelector('.language').appendChild(li)
+// }
+// addLanguage("Python")
+// addLanguage("Java")
+// addLanguage("Typescript")
+// addLanguage("Typescript")
+
+
+let h3 =document.createElement('h3');
+let para =document.createElement('p');
+h3.style.color='orange';
+h3.textContent='Hello good morning'
+para.textContent="today i am very buys so may be i cant give time to study"
+document.body.append(h3,para);
