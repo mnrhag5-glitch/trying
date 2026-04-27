@@ -1333,14 +1333,8 @@
 
 //-----------prompt-----------
 
-// let num="";
-// let user=prompt('enter the number 20 to 30');
-// while( user<20 || user>30){
-//    user=prompt("try again")
-// }   user=prompt("very good")
-
-let num="";
-let user = prompt('enter the number 20 to 30');
-while(user < 20 || user > 30){
-   user = prompt("try again");}
-user = prompt("very good");
+let num=55;
+let user=prompt('guess the number');
+while(user!=num){
+   user=prompt("try again")
+}console.log('nice guess !')
