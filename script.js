@@ -1315,9 +1315,32 @@
 // addLanguage("Typescript")
 
 
-let h3 =document.createElement('h3');
-let para =document.createElement('p');
-h3.style.color='orange';
-h3.textContent='Hello good morning'
-para.textContent="today i am very buys so may be i cant give time to study"
-document.body.append(h3,para);
+// let h3 =document.createElement('h3');
+// let para =document.createElement('p');
+// h3.style.color='orange';
+// h3.textContent='Hello good morning'
+// para.textContent="today i am very buys so may be i cant give time to study"
+// document.body.append(h3,para);
+
+// let students=document.querySelector('.students');
+// students[4].style.color='orange'
+// students[2].style.color="yellow"
+
+
+//-----------------hy gys today i had a function so i am in holiday for today----
+//-------but now i just revise my old js------------------
+
+
+//-----------prompt-----------
+
+// let num="";
+// let user=prompt('enter the number 20 to 30');
+// while( user<20 || user>30){
+//    user=prompt("try again")
+// }   user=prompt("very good")
+
+let num="";
+let user = prompt('enter the number 20 to 30');
+while(user < 20 || user > 30){
+   user = prompt("try again");}
+user = prompt("very good");
