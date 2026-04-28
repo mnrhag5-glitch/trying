@@ -1374,17 +1374,6 @@ for (let even = 2; even <=20 ; even+=2){
 }
 
 
-
-// let total=[1,2,3,4,5]
-// let allSum=total.reduce(a,b(a+b))
-// console.log(allSum)
-
-
-// let numbers=[1,2,3,4,5];
-// let double=numbers.map(numbers*2);
-// console.log(double)
-
-
 let numb=21;
 if(numb % 2!==0){
    console.log("odd")
@@ -1397,3 +1386,18 @@ if(age>=18){
 }else{
    console.log('less then 18')
 }
+
+
+let numbers=[1,2,3,4,5];
+let double=numbers.map( numbers=>numbers*2);
+console.log(double)
+
+
+let total=[1,2,3,4,5]
+let allSum=total.reduce((a,b)=>a+b)
+console.log(allSum)
+
+
+function string(str){
+   return str.toUpperCase();
+}console.log(string('yo heloo sdvdvd'))
