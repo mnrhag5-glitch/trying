@@ -1372,3 +1372,28 @@ let even=0;
 for (let even = 2; even <=20 ; even+=2){
    console.log(even)
 }
+
+
+
+// let total=[1,2,3,4,5]
+// let allSum=total.reduce(a,b(a+b))
+// console.log(allSum)
+
+
+// let numbers=[1,2,3,4,5];
+// let double=numbers.map(numbers*2);
+// console.log(double)
+
+
+let numb=21;
+if(numb % 2!==0){
+   console.log("odd")
+}else(console.log('even'))
+
+
+let age = 3;
+if(age>=18){
+   console.log('more then 18')
+}else{
+   console.log('less then 18')
+}
