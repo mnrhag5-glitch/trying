@@ -1366,3 +1366,9 @@ console.log(sum(12,12))
 let num=0;
 for(let num=0; num<=10; num++)
    console.log(num)
+
+
+let even=0;
+for (let even = 2; even <=20 ; even+=2){
+   console.log(even)
+}
