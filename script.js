@@ -1333,8 +1333,36 @@
 
 //-----------prompt-----------
 
-let num=55;
-let user=prompt('guess the number');
-while(user!=num){
-   user=prompt("try again")
-}console.log('nice guess !')
+// let num=55;
+// let user=prompt('guess the number');
+// while(user!=num){
+//    user=prompt("try again")
+// }console.log('nice guess !')
+
+
+//---------------- hello gys aj mere ant ki death ho gayi hai ------------------
+//------to me ek himachli hu or hamre ynha 13 din tak hme kaam krna pdta hai to shayd me 13 din tak ------------
+//-------busy rhunga pr me try krunga pdahi ke liye time nikla paya to==============
+
+
+
+//===============adit and remove element----------------------
+
+//-------test kr lete bhai khud ka----------------
+//------------q > 1
+
+function sum(a,b){
+   return a+b
+}
+console.log(sum(12,12))
+
+//----------q > 2
+
+// function string(){
+//    return 'hy howare you'
+// }
+// const touppeer=string.touppw
+
+let num=0;
+for(let num=0; num<=10; num++)
+   console.log(num)
