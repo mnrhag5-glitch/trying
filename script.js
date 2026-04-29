@@ -1351,10 +1351,10 @@
 //-------test kr lete bhai khud ka----------------
 //------------q > 1
 
-function sum(a,b){
-   return a+b
-}
-console.log(sum(12,12))
+// function sum(a,b){
+//    return a+b
+// }
+// console.log(sum(12,12))
 
 //----------q > 2
 
@@ -1363,41 +1363,43 @@ console.log(sum(12,12))
 // }
 // const touppeer=string.touppw
 
-let num=0;
-for(let num=0; num<=10; num++)
-   console.log(num)
+// let num=0;
+// for(let num=0; num<=10; num++)
+//    console.log(num)
 
 
-let even=0;
-for (let even = 2; even <=20 ; even+=2){
-   console.log(even)
-}
+// let even=0;
+// for (let even = 2; even <=20 ; even+=2){
+//    console.log(even)
+// }
 
 
-let numb=21;
-if(numb % 2!==0){
-   console.log("odd")
-}else(console.log('even'))
+// let numb=21;
+// if(numb % 2!==0){
+//    console.log("odd")
+// }else(console.log('even'))
 
 
-let age = 3;
-if(age>=18){
-   console.log('more then 18')
-}else{
-   console.log('less then 18')
-}
+// let age = 3;
+// if(age>=18){
+//    console.log('more then 18')
+// }else{
+//    console.log('less then 18')
+// }
 
 
-let numbers=[1,2,3,4,5];
-let double=numbers.map( numbers=>numbers*2);
-console.log(double)
+// let numbers=[1,2,3,4,5];
+// let double=numbers.map( numbers=>numbers*2);
+// console.log(double)
 
 
-let total=[1,2,3,4,5]
-let allSum=total.reduce((a,b)=>a+b)
-console.log(allSum)
+// let total=[1,2,3,4,5]
+// let allSum=total.reduce((a,b)=>a+b)
+// console.log(allSum)
 
 
-function string(str){
-   return str.toUpperCase();
-}console.log(string('yo heloo sdvdvd'))
+// function string(str){
+//    return str.toUpperCase();
+// }console.log(string('yo heloo sdvdvd'))
+
+
