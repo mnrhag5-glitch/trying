@@ -1407,22 +1407,22 @@
 
 
 
-var a=10;
-let b=20;
-const c=30;
+// var a=10;
+// let b=20;
+// const c=30;
 
-if(true){
-   var a=100;
-   let b=200;
-   const c=300;
+// if(true){
+//    var a=100;
+//    let b=200;
+//    const c=300;
 
-}
-sam()
-function sam(){var a=1000;
-   let b=2000;
-   const c=3000;
+// }
+// sam()
+// function sam(){var a=1000;
+//    let b=2000;
+//    const c=3000;
    
-}
+// }
 
 
 
@@ -1430,12 +1430,12 @@ function sam(){var a=1000;
 //function
 //
 
-function hello(){var a=10;
-   let b=20;
-   const c=30;
-   function don (){
-      console.log(a+b)
-   }return don
-}
-let out =don();
-hello();
+// function bob(){var a=10;
+//    let b=20;
+//    const c=30;
+//    function don (){
+//       console.log(a+b)
+//    }return don
+// }
+// let out =bob();
+// out();
