@@ -1423,3 +1423,19 @@ function sam(){var a=1000;
    const c=3000;
    
 }
+
+
+
+//global
+//function
+//
+
+function hello(){var a=10;
+   let b=20;
+   const c=30;
+   function don (){
+      console.log(a+b)
+   }return don
+}
+let out =don();
+hello();
